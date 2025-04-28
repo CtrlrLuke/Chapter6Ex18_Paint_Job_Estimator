@@ -1,3 +1,15 @@
+/*
+File Name: Chapter6Ex18_Paint_Job_Estimator.cpp
+Developer: Luke Pritchard
+Date: 04/27/25
+Requirements:
+- Ask for number of rooms (>= 1), square footage (>= 0), and paint price (>= $10).
+- 1 gallon covers 110 square feet; 8 hours labor per 110 square feet.
+- Labor costs $25 per hour.
+- Calculate and display gallons needed, labor hours, paint cost, labor charges, and total cost.
+- Must use functions, input validation, and allow multiple estimates.
+*/
+
 #include <iostream>
 #include <iomanip>
 #include <cmath> // For ceil
